@@ -1,5 +1,4 @@
 #include <iostream>
-#include "string.h"
 #include <vector>
 
 int main(int argc, char *argv[])
@@ -10,8 +9,7 @@ int main(int argc, char *argv[])
 
     for (auto v : neptun)
     {
-        int n = v;
-        sum += n;
+        sum += v;
     }
 
     std::vector<char> vec = {'A', 'B', 'C', 'D'};
